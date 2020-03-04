@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a81b5f3-79ba-4f3f-afc5-92101c752e58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/spa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/AppController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/DocumentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/SearchController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/AppModal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Document.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Document/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Document/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Document/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Search/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/User/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/User/signup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/spa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config_db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/init.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/routers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/document-show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/typeahead.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spa.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Adapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Adapter/DBAdapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/AssociationManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/BeanCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/BeanHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/BeanHelper/SimpleFacadeBeanHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Cursor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Cursor/NullCursor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Cursor/PDOCursor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/DuplicationManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Finder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/LabelMaker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Logger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Logger/RDefault.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Logger/RDefault/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/OODB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/OODBBean.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Observable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Observer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Plugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Plugin/Pool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Plugin/SQN.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Plugin/TinyQueryBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Plugin/put_your_plugins_here.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/CUBRID.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/Firebird.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/MySQL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/PostgreSQL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/SQLiteT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/R.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/RedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/RedException/SQL.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Repository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Repository/Fluid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Repository/Frozen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/SimpleModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/SimpleModelHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/TagManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/ToolBox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/ArrayTool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/Diff.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/DispenseHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/Dump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/Feature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/Look.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/MatchUp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/MultiLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/QuickExport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/Transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/Util/Tree.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/RedBeanPHP/loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/p533patch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/replica2-win.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/replica2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/run_all_tests.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/run_single_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/test-dist.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Aliasing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Arrays.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Association.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Batch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Bean.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Boxing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Chill.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Close.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Concurrency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Copy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Count.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Cross.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Cursors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Dispense.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Dup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Exceptions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Facade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Finding.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Foreignkeys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Frozen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Fuse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Hybrid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Indexes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Issue259.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Issue303.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Issue408.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Issue90.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Joins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Keywords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Largenum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Misc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Namedparams.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Nuke.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Observers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Partial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Performance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Prefixes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Productivity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/PullRequest530.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Quickexport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Relations.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Threeway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Trash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Traverse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Typechecking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Utf8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Via.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/With.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Writecache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Base/Xnull.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Export.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Fusebox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Glue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Labels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Misc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Plugins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Stub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Tainted.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Toolbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Blackhole/Version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/CUBRID.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/CUBRID/Setget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/CUBRID/Writer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Bigint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Double.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Foreignkeys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Freeze.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Issue411.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Parambind.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Preexist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Setget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Uuid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Mysql/Writer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Postgres.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Postgres/Bigint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Postgres/Foreignkeys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Postgres/Parambind.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Postgres/Partial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Postgres/Setget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Postgres/Trees.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Postgres/Uuid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Postgres/Writer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Pretest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Sqlite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Sqlite/Foreignkeys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Sqlite/Parambind.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Sqlite/Rebuild.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Sqlite/Setget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/RedUNIT/Sqlite/Writer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/cli/plugins/myhooks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/cli/runperf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/cli/runtests.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/cli/test_hook_example.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/cli/testcontainer/put-rb-file-here.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/config/test-dist.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/config/test-travis.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/helpers/classes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/helpers/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean/testing/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spa/core/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spa/core/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spa/core/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spa/core/TSingleton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spa/core/basic/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spa/core/basic/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spa/core/basic/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spa/core/libs/Pogination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/spa/core/libs/function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/az.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/bg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/el.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/en.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/ko.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/lt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/lv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/nb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/nn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/no.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/pt-br.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/sv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/th.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/uk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/vi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/zh-cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/lang/zh-tw.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/vlucas/valitron/src/Valitron/Validator.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spa" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/vlucas/valitron" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/gabordemooij/redbean" />
+      <path value="$PROJECT_DIR$/vendor/todo/core" />
+      <path value="$PROJECT_DIR$/vendor/spa/core" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Yc5FzgqIRS2NvrzxFDCx6y7hwP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\spa" />
+      <recent name="C:\OSPanel\domains\spa\public\js" />
+      <recent name="C:\OSPanel\domains\spa\app\views" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a81b5f3-79ba-4f3f-afc5-92101c752e58" name="Default Changelist" comment="" />
+      <created>1583228942863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583228942863</updated>
+      <workItem from="1583228944170" duration="448000" />
+      <workItem from="1583229402667" duration="36270000" />
+      <workItem from="1583308674894" duration="21839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583267816546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="523" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1583267816546" />
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583311340590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583311340590" />
+    <state x="532" y="324" key="ComposerInitDialogKey" timestamp="1583228980092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="324" key="ComposerInitDialogKey/0.0.1536.824@0.0.1536.824" timestamp="1583228980092" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1583322253191">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583322253191" />
+    <state x="568" y="212" key="NewPhpClassDialog" timestamp="1583313472306">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="568" y="212" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1583313472306" />
+    <state x="604" y="333" key="NewPhpFileDialog" timestamp="1583319589820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="333" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1583319589820" />
+    <state x="444" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583229402898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="444" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583229402898" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1583278835119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1583278835119" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583270977185">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583270977185" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "spa\\": "vendor/spa/core",
+            "app\\": "app"
+
+        }
+    },
+    "require": {
+        "gabordemooij/redbean": "^5.4",
+        "vlucas/valitron": "^1.4"
+    }
+}

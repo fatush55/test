@@ -1,0 +1,3 @@
+<section>
+    <?=  $document['text'] ?>
+</section>
